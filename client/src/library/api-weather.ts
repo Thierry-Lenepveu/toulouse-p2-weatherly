@@ -514,10 +514,19 @@ export async function processRequest<T>(request: string): Promise<T> {
   }
 }
 
-const { VITE_API_KEY1, VITE_API_KEY2, VITE_API_KEY3, VITE_API_KEY4 } =
-  import.meta.env;
+const {
+  VITE_WEATHERLY_API_KEY1,
+  VITE_WEATHERLY_API_KEY2,
+  VITE_WEATHERLY_API_KEY3,
+  VITE_WEATHERLY_API_KEY4,
+} = import.meta.env;
 
-const apiKeys = [VITE_API_KEY1, VITE_API_KEY2, VITE_API_KEY3, VITE_API_KEY4];
+const apiKeys = [
+  VITE_WEATHERLY_API_KEY1,
+  VITE_WEATHERLY_API_KEY2,
+  VITE_WEATHERLY_API_KEY3,
+  VITE_WEATHERLY_API_KEY4,
+];
 let apiKeyIndex = 0;
 
 function apiKey() {
