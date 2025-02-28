@@ -19,7 +19,6 @@
   gap: 2rem;
   font-size: 1rem;
   color: #ffffff;
-  margin-bottom: 1rem;
   text-align: center;
   display: none;
 }
@@ -35,7 +34,6 @@
   gap: 2rem;
   font-size: 1rem;
   color: #ffffff;
-  margin-bottom: 1rem;
   text-align: center;
   display: none;
 }
@@ -46,7 +44,7 @@
     height: 100%;
     max-width: none;
     max-height: none;
-    margin: 0;
+    margin: 1rem;
     flex-direction: column;
   }
 }

@@ -2,6 +2,8 @@ div.favorites {
   display: flex;
   min-height: 100px;
   align-items: center;
+  padding-left: 9.125rem;
+  padding-right: 9.125rem;
 }
 
 div.favorites > h1 {

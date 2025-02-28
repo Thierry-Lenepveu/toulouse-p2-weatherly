@@ -1,6 +1,44 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  --violet-are-blue-color: #8c8bfd;
+  --lavender-blue-color: #bfd6f8;
+  --sandy-brown-color: #f4a06e;
+  --ghost-white-color: #f9f9f9;
+}
+
+@media (max-width: 240px) {
+  :root {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    var(--violet-are-blue-color) 0%,
+    var(--lavender-blue-color) 50%,
+    var(--sandy-brown-color) 100%
+  );
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
 }
