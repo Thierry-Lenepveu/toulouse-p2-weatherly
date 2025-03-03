@@ -7,18 +7,20 @@ function Header() {
     <>
       <nav>
         <div className="logo">
-          <img src="./src/assets/images/logo.png" alt="weatherly-logo" />
+          <Link to="/">
+            <img src="./src/assets/images/logo.png" alt="weatherly-logo" />
+          </Link>
         </div>
         <div className="icons">
-          <Link to="/">
+          <Link to="/welcome">
             <img src="./src/assets/images/today.png" alt="today-weather" />
             <p>Accueil</p>
           </Link>
-          <Link to="FiveDays">
+          <Link to="/fivedays">
             <img src="./src/assets/images/five-days.png" alt="five-days" />
             <p>5 jours</p>
           </Link>
-          <Link to="Favorites">
+          <Link to="/favorites">
             <img src="./src/assets/images/Favoris.png" alt="favoris" />
             <p>Favoris</p>
           </Link>

@@ -32,7 +32,7 @@
   background-color: rgba(112, 150, 188, 0.33);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px), screen and (orientation: portrait) {
   .summary-style {
     justify-content: stretch;
   }

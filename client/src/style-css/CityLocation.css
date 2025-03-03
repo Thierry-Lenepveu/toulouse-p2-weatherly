@@ -23,7 +23,7 @@
   color: #fff;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 1024px), screen and (orientation: landscape) {
   .header-container {
     display: flex;
     flex-direction: column;

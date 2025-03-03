@@ -36,7 +36,7 @@
   font-weight: bold;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 1024px), screen and (orientation: landscape) {
   .welcome-page-style {
     display: flex;
     flex-direction: row;
