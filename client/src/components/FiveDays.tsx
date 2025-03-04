@@ -13,7 +13,7 @@ function FiveDays() {
   const daysArrayDisplay = weatherContext.weather.DailyForecasts.map(
     (weather) => {
       return (
-        <div key={`weather${weather.EpochDate}`} className="day-box">
+        <figure key={`weather${weather.EpochDate}`} className="day-box">
           <img
             src={`/src/assets/images/${weather.Day.Icon}.png`}
             alt={weather.Day.IconPhrase}
@@ -23,26 +23,26 @@ function FiveDays() {
             {new Date(weather.Date).toLocaleDateString("fr-FR", options)}
           </p>
           <p className="degree">{`${weather.Temperature.Maximum.Value}°${weather.Temperature.Maximum.Unit}`}</p>
-        </div>
+        </figure>
       );
     },
   );
 
   return (
-    <div>
+    <section>
       <Days />
-      <div className="container">{daysArrayDisplay}</div>
-    </div>
+      <article className="container">{daysArrayDisplay}</article>
+    </section>
   );
 }
 
 function Days() {
   const cityContext = useCityContext();
   return (
-    <div className="days-city">
+    <article className="days-city">
       <h2 className="days">5 jours</h2>
       <h3 className="city">{cityContext.city.LocalizedName}</h3>
-    </div>
+    </article>
   );
 }
 

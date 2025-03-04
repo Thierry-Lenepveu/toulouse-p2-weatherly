@@ -28,8 +28,8 @@ export function Favorites() {
   const [citiesFavorites, setCitiesFavorites] = useState(citiesOrigin);
   const [centerOnCityFavorite, setCenterOnCityFavorite] = useState(true);
   return (
-    <div className="favorites">
-      <h1>Favoris</h1>
+    <section className="favorites">
+      <h2>Favoris</h2>
       <SearchBar
         citiesFavorites={citiesFavorites}
         setCitiesFavorites={setCitiesFavorites}
@@ -47,6 +47,6 @@ export function Favorites() {
         citiesFavorites={citiesFavorites}
         setCitiesFavorites={setCitiesFavorites}
       />
-    </div>
+    </section>
   );
 }

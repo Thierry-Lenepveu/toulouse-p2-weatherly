@@ -8,7 +8,7 @@ function Summary() {
 
   return (
     <article className="summary-style">
-      <h1 className="tendancy">Tendances</h1>
+      <h2 className="tendancy">Tendances</h2>
       <p>{summaryTodayWeather}</p>
     </article>
   );

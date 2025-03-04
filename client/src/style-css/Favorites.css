@@ -1,4 +1,4 @@
-div.favorites {
+section.favorites {
   display: flex;
   min-height: 100px;
   align-items: center;
@@ -6,7 +6,7 @@ div.favorites {
   padding-right: 9.125rem;
 }
 
-div.favorites > h1 {
+section.favorites > h2 {
   font-family: "Arial", sans-serif;
   font-size: 2rem;
   font-weight: bold;
@@ -71,7 +71,7 @@ ul.city-favorites > li {
 }
 
 @media screen and (max-width: 768px), screen and (orientation: portrait) {
-  div.favorites {
+  section.favorites {
     flex-direction: column;
   }
   .leaflet-container {
@@ -94,14 +94,14 @@ ul.city-favorites > li {
 }
 
 @media screen and (min-width: 768px) and (orientation: landscape) {
-  div.favorites {
+  section.favorites {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 15px;
   }
 
-  div.favorites > h1 {
+  section.favorites > h2 {
     flex: 1 1 100%;
     text-align: center;
   }
@@ -116,7 +116,7 @@ ul.city-favorites > li {
     padding-right: 50px;
   }
 
-  div.favorites > img {
+  section.favorites img {
     flex: 1 1 33%;
     display: flex;
     max-width: 268px;
