@@ -99,7 +99,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 1024px), screen and (orientation: landscape) {
+@media screen and (min-width: 768px), screen and (orientation: landscape) {
   .logo img {
     width: 80%;
     max-height: none;
