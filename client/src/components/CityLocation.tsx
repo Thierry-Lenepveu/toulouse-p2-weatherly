@@ -13,14 +13,14 @@ function CityLocation() {
   };
 
   return (
-    <div className="city-location-style">
+    <section className="city-location-container">
       <h1 className="city-style">
         {cityContext.city.LocalizedName.toUpperCase()}
       </h1>
       <h2 className="date-style">
         {date.toLocaleDateString("fr-FR", options)}
       </h2>
-    </div>
+    </section>
   );
 }
 export default CityLocation;

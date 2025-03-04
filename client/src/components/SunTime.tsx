@@ -6,10 +6,10 @@ import "../style-css/ResponsiveBox.css";
 function SunTime() {
   return (
     <>
-      <div className="sun-time-style">
+      <article className="sun-time-style">
         <SunRise />
         <SunSet />
-      </div>
+      </article>
     </>
   );
 }

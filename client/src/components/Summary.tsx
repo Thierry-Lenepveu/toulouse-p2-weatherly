@@ -7,10 +7,10 @@ function Summary() {
   const summaryTodayWeather = weatherContext.weather.Headline.Text;
 
   return (
-    <div className="summary-style">
+    <article className="summary-style">
       <h1 className="tendancy">Tendances</h1>
       <p>{summaryTodayWeather}</p>
-    </div>
+    </article>
   );
 }
 

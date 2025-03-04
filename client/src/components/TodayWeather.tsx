@@ -13,16 +13,16 @@ function TodayWeather() {
   const iconNumber = weather.Day.Icon;
 
   return (
-    <div className="today-weather-style">
+    <article className="today-weather-style">
       <h4 className="title-style">Aujourd'hui</h4>
       <img
         src={`/src/assets/images/${iconNumber}.png`}
         alt={weather.Day.IconPhrase}
         className="today-icon"
       />
-      <p className="current-time">{`${currentTemp}°${maxUnitTemp}`}</p>
-      <p className="current-temperature">{`${minTemp}°${minUnitTemp} - ${maxTemp}°${maxUnitTemp}`}</p>
-    </div>
+      <p className="current-temperature">{`${currentTemp}°${maxUnitTemp}`}</p>
+      <p className="temperature-min-max">{`${minTemp}°${minUnitTemp} - ${maxTemp}°${maxUnitTemp}`}</p>
+    </article>
   );
 }
 

@@ -11,13 +11,13 @@ function WelcomePage() {
   return (
     <>
       <CityLocation />
-      <div className="welcome-page-style">
+      <section className="welcome-page-container">
         <Summary />
         <SunTime />
         <WeatherParameter />
         <TodayWeather />
         <MapRainViewer />
-      </div>
+      </section>
     </>
   );
 }

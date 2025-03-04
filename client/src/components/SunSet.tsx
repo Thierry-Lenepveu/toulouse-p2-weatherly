@@ -9,10 +9,10 @@ function SunSet() {
   const dateSunset = new Date(timeSunset);
 
   return (
-    <div className="sunset-style">
+    <section className="sunset-style">
       <h4>Coucher du Soleil</h4>
       <p>{dateSunset.toLocaleTimeString("fr-FR")}</p>
-    </div>
+    </section>
   );
 }
 

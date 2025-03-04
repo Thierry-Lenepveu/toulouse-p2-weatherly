@@ -1,4 +1,4 @@
-.city-location-style {
+.city-location-container {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.city-location-style,
+.city-location-container,
 .date-style {
   color: #fff;
 }
@@ -32,7 +32,7 @@
     margin-bottom: 1rem;
   }
 
-  .city-location-style {
+  .city-location-container {
     text-align: center;
     font-size: 1rem;
     margin: 0 auto;

@@ -9,10 +9,10 @@ function SunRise() {
   const dateSunrise = new Date(timeSunrise);
 
   return (
-    <div className="sunrise-style">
+    <section className="sunrise-style">
       <h4>Lever du Soleil</h4>
       <p>{dateSunrise.toLocaleTimeString("fr-FR")}</p>
-    </div>
+    </section>
   );
 }
 

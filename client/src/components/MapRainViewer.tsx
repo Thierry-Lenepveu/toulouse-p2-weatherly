@@ -38,7 +38,7 @@ function MapRainViewer() {
   };
 
   return (
-    <div className="map-rain-viewer-style">
+    <article className="map-rain-viewer-style">
       <MapContainer
         center={[
           cityContext.city.GeoPosition.Latitude as number,
@@ -61,7 +61,7 @@ function MapRainViewer() {
           ]}
         />
       </MapContainer>
-    </div>
+    </article>
   );
 }
 
